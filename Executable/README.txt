@@ -7,3 +7,4 @@ SPACE: jump (off ladder only)
 
 sphere is hammer, deletes DK's last barrel
 
+We discussed during class that it was okay to upload it like this [The UnityPlayer.dll was too large to upload]
