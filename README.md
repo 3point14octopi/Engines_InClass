@@ -10,4 +10,5 @@ Game Scene [Scenes]
 
 GameObject Prefabs [Prefabs]
 
-
+Command is used for Donkey Kong to throw barrels. If the player uses the power-up, it will undo the last barrel throw. 
+DKBarrelThrow is a child of the ICommand interface, and the Invoker class manages DKBarrelThrow commands. It stores them in a stack after executing so that they can be undone in a last in/first out manner. 
